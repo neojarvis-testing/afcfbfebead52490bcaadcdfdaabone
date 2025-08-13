@@ -22,4 +22,5 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+// Run the application on port 5000
+app.Run("http://localhost:8080");
